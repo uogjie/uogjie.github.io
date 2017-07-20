@@ -13,8 +13,15 @@
             margin-left: 5%;
             margin-right: 5%;
         }
+        div form #ipt1{
+            border: 1px;
+            width: 93%;
+            height: 25px;
+        }
         div form input{
-            width: 100%;
+            border: 1px ;
+            padding: 0;
+            width: 6.5%;
             height: 25px;
         }
     </style>
@@ -22,9 +29,9 @@
 <body>
 <div>
     <form id="fm" onsubmit="return baiduWithHttps(this)" action="http://www.baidu.com/baidu" target="_blank">
-        <input id="alertSpan" name="tn" type="hidden" value="SE_zzsearchcode_shhzc78w">
+        <!--<input id="alertSpan" name="tn" type="hidden" value="SE_zzsearchcode_shhzc78w">-->
         <input id="ipt1" type="text"  onfocus="checkHttps" name="word"  size="30">
-        <button type="submit">search</button>
+        <input type="submit"></input>
     </form>
 </div>
 
